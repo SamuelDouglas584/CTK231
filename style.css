@@ -1,0 +1,62 @@
+/* Comments are made differently in CSS*/
+/* Bookmark the cheat sheet!! It'll be important*/
+
+h1 {
+    color: red;
+}
+
+/* also bookmark the hexadecimal color list*/
+
+/*
+p {
+    color: #ff3366;
+    background-color: #00FF00;S
+}
+*/
+
+.specialp {
+    color: blue;
+    background-color: #FF0000;
+}
+
+#specialid {
+    color: green;
+    background-color: #ffff33f9;
+}
+
+.orangebg {
+    background-color: orange;
+
+}
+
+.spanstyle {
+    color: blue; 
+}
+
+/* Styles are read in order*/
+a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a:link {
+  color: #00ff00;
+}
+
+a:visited {
+  color: #0000ff;
+}
+
+a:active {
+  color: #00ffff;
+}
+
+a:hover {
+  color: #ff00ff;
+  text-decoration: underline;
+}    
+
+footer {
+    color:green;
+}
+/* vid stopped at 16:50*/
