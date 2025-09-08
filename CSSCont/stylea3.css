@@ -1,0 +1,65 @@
+/* Comments are made differently in CSS*/
+/* Bookmark the cheat sheet!! It'll be important*/
+
+
+
+/*link colors*/
+a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}    
+
+/* Seperate the text colors from the link similarly to how page is formatted*/
+
+/*header colors*/
+h1 {
+    color: white;
+    background-color: black;
+}
+
+/* Major blab colors*/
+.majblab {
+  background-color: burlywood;
+  color: brown;
+}
+
+/* Medium blab colors*/
+.medblab {
+  background-color: goldenrod;
+  color: gold;
+}
+
+/* blab colors*/
+.blab {
+  background-color: grey;
+  color:lightgrey;
+}
+
+/*info list colors*/
+
+.inflist {
+  background-color: blue;
+  color:orange;
+}
+
+/* big text colors*/
+
+.btext {
+  background-color: orange;
+  color:midnightblue;
+}
+
+/* CT colors*/
+.CT {
+  background-color:darkblue;
+  color: aquamarine;
+}
+
