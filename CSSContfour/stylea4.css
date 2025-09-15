@@ -1,0 +1,53 @@
+/* Comments are made differently in CSS*/
+/* Bookmark the cheat sheet!! It'll be important*/
+h1 {
+ font-family: Helvetica, Arial;
+ color: orange;
+ font-style: italic;
+ font-weight: normal;
+}
+
+h2 {
+  font-family: Helvetica, Arial;
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: Helvetica, Arial;
+}
+
+h4 {
+  font-family: Helvetica, Arial;
+}
+
+.blab {
+ font-family: helvetica, Arial;
+}
+
+.inflist {
+  font-family: helvetica, Arial;
+}
+
+/* Alignment text here */
+.centext {
+  text-align: center;
+}
+
+.justext {
+  font-family: helvetica, Arial;
+  text-align: justify;
+}
+
+.imbord {
+    border: 15px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+}
+
+/* background */
+body {
+    background-image:url(light.jpg);
+}
