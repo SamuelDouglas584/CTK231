@@ -1,0 +1,82 @@
+body {
+    background-image: url(a5bg.png)
+}
+
+h1 {
+    font-family: Helvetica;
+    padding: 20px;
+    background-color: white;
+    font-weight: normal;
+}
+
+/* Navigation Menu Styles */
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+nav li a{
+    color: white; 
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    width: 150px;
+    background-color: darkblue;
+}
+
+nav li a:hover {
+    background-color: blue;
+}
+
+/* Styles underneath nav */
+
+h2{
+    font-family: Helvetica;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 4px solid black;
+}
+
+.just {
+    text-align: justify;
+}
+
+.mainw {
+    padding: 20px;
+    background-color: white;
+}
+
+/* in text links */
+
+div a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+div a:hover{
+    color: red;
+    font-weight: normal; 
+    text-decoration: underline;
+}
+
+/* bottom footer */
+
+.bfoot {
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: italic;
+    background-color: darkblue;
+    border: 2px solid white;
+    padding: 40px;
+}
