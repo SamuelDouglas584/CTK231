@@ -1,0 +1,203 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-template-rows: 600px; /* This is for the dummy columns, replace or delete */
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+
+/* give the header its column and style it */
+header {
+  background-color: blue;
+  border-bottom: 4px solid black;
+  grid-column: span 12;
+  height: 100px;
+  margin: -24px;
+}
+
+.titlehead {
+  margin-top: 25px;
+  font-size: 48px;
+  color: white;
+  font-family: "lorimer-no-2", sans-serif;
+}
+
+/* give the nav bar its column and style it */
+nav {
+  background-color: orange;
+  border-right: 4px solid black;
+  margin-left: -24px;
+  margin-top: -520px;
+  margin-bottom: 24px;
+  grid-column: span 2;
+  padding-top: 50px;
+}
+
+nav {
+    position: relative;
+    z-index: 9999;
+}
+
+nav li {
+  margin-left: -5px;
+  padding-bottom: 48px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-family: "lorimer-no-2", sans-serif;
+  font-size: 48px;
+  transition: background-color 1s;
+}
+
+nav li a:hover {
+  background-color: darkorange;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/* give the main content its column and style it */
+
+main {
+  grid-column: span 10;
+  margin-left: -24px;
+  margin-top: -520px;
+  padding-bottom: 50px;
+}
+
+/* Image identification and carousel styling */
+#floatimg {
+  float: right;
+}
+
+#myCarousel .f-carousel__slide, #secondCarousel .f-carousel__slide {
+  padding: 24px;
+  padding-right: 50px;
+}
+
+.f-carousel__slide img {
+  border-radius: 25px;
+}
+
+.int_text {
+  padding-left: 20px;
+  margin-right: 700px;
+  padding-right: 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.clearfloat {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  clear: both;
+  font-size: 20px;
+}
+
+/* give the footer its column and style it */
+footer {
+  background-color: blue;
+  border-top: 4px solid black;
+  grid-column: span 12;
+  margin: -24px;
+}
+
+header, footer {
+    position: relative;
+    z-index: 9999;
+}
+
+/* add the font for general paragraphs */
+p {
+  font-family: "jaf-bernina-sans", sans-serif;
+}
+
+/* columns for secondary page */
+
+#onecol {
+  grid-column: span 4;
+  margin-top: -500px;
+  margin-left: -24px;
+  margin-right: 48px;
+}
+
+#twocol {
+  grid-column: span 4;
+  margin-left: -48px;
+  margin-right: 96px;
+  margin-top: -500px;
+}
+
+#threecol {
+  grid-column: span 4;
+  margin-right: -825px;
+  margin-left: 925px;
+  margin-top: -562px;
+}
+
+/* columns for tertiary page */
+
+#topcol {
+  grid-column: span 10;
+  margin-top: -500px;
+}
+
+.rightimg {
+  float: right;
+  border-radius: 25px;
+  margin-top: -150px;
+}
+
+#midcol {
+  grid-column: span 10;
+  margin-top: -425px;
+}
+
+.leftimg {
+  float: left;
+  border-radius: 25px;
+  margin-top: 125px;
+  margin-left: 175px;
+}
+
+.midtext {
+  margin-top: 175px;
+}
+
+.midtext2 {
+  margin-left: 400px;
+}
+
+#bottomcol {
+  grid-column: span 10;
+}
+
+.botright {
+  float: right;
+  border-radius: 25px;
+  margin-top: -225px;
+  margin-right: -70px;
+}
+
+.bottext {
+  margin-left: -750px;
+  margin-top: -125px;
+}
